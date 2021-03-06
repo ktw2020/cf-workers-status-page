@@ -23,15 +23,14 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
-    method: GET
-    expectStatus: 200
+  - id: homeprovider.de
+    name: homeprovider.de
+    url: 'https://www.homeprovider.de/'
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
-    method: GET
-    expectStatus: 200
+  - id: karpe.eu
+    name: karpe.eu
+    url: 'https://www.karpe.eu/'
+
+  - id: lebensmut.de
+    name: lebensmut.de
+    url: 'https://www.lebensmut.de/'
